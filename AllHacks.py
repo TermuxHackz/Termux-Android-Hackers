@@ -1,6 +1,0 @@
-print("Hello fellow hackers")
-name = input("Please input your name to use this tool")
-print(name)
-password = input("Create a New Password")
-print("Good, now Hacker you are ready to use this tool")
-input("Press enter to end program")
