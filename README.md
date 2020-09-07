@@ -22,7 +22,7 @@ the best tool for whatsapp-phishing with otp Bypass
 
 # How to Install
 
-> git clone https://github.com/Ignitetch/whatsapp-phishing
+> git clone https://github.com/Termux-Android-Hackers/whatsapp-phishing
 
 > cd whatsapp-phishing
 
