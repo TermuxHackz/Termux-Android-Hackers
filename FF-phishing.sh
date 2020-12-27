@@ -71,7 +71,7 @@ printf "\e[101m\e[1;77m:: #      #       ———   #      #   #    #     iiim 
 printf "\e[101m\e[1;77m:: #      #             #      #   #  mm#mm  #mmm#  #   #  mm#mm  #   #   #m #  \e[0m\n"
 printf "\e[101m\e[1;77m::                                                                        m  #  \e[0m\n"
 printf "\n"
-printf "\e[1;93m       .:.:.\e[0m\e[1;77m Phishing Tool coded by:  Mr amine10a \e[0m\e[1;93m.:.:.\e[0m\n"
+printf "\e[1;93m       .:.:.\e[0m\e[1;77m Phishing Tool coded by:  AnonyminHack510a \e[0m\e[1;93m.:.:.\e[0m\n"
 printf "\n"
 
 printf "  \e[101m\e[1;77m:: #free_palestine ::\e[0m\n"
